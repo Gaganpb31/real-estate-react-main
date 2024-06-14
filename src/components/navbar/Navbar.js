@@ -14,7 +14,7 @@ const Navbar = ({isSignin, setIsSignin}) => {
 
     return (
         <div className='navbar'>
-            <div className='container'>
+            <div className='container test'>
                 <h1><span><BsFillHouseFill />Raman</span>Travel</h1>
                 {isSignin ? (
                     <button onClick={()=>setIsSignin(false)} className='btn'>Ramandeep Kaur</button>
